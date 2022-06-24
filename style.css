@@ -26,10 +26,11 @@ body{
 .mainbox:after{
     position: absolute;
     content: '';
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 30px;
+    background: url('https://o.remove.bg/downloads/a9279d3e-7469-4777-9f87-8e6983232b8d/black_arrow_2-removebg-preview.png') no-repeat;
     background-size: 32px;
-    right: -30px;
+    right: -50px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -41,6 +42,7 @@ body{
     border: 10px solid #fff;
     overflow: hidden;
     transition: all ease 5s;
+    color:white;
 }
 span{
     width: 50%;
